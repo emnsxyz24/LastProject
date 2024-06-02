@@ -1,0 +1,157 @@
+.navbar {
+    border: 1px solid red;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.header-img img {
+    border-radius: 20px;
+}
+
+.header {
+    margin-top: 50px;
+    width: 100vw;
+    border: 1px solid red;
+}
+
+.section {
+    height: calc(100vh - 50px);
+}
+
+.nav-item {
+    transition: transform 0.4s ease;
+}
+
+.nav-item:hover {
+    transform: scale(1.02);
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg {
+    background: url("./bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    text-align: center;
+    margin-top: 150px;
+    height: 650px;
+    width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login-section {
+    height: calc(100vh - 150px);
+}
+
+.password-input-container {
+    position: relative;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.login-button {
+    width: 100%;
+    height: 50px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    text-align: start;
+}
+
+.login-left-side {
+    margin: 50px;
+}
+
+.policy-text{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    
+}
+
+.login-right-side {
+    border-radius: 0 10px 10px 0;
+    height: 650px;
+}
+
+.login-right-side {
+    background: linear-gradient(270deg, #246655, #22d240, #64ae70, #4f8958);
+    background-size: 800% 800%;
+
+    -webkit-animation: login-right-side 48s ease infinite;
+    -moz-animation: login-right-side 48s ease infinite;
+    animation: login-right-side 48s ease infinite;
+}
+
+@-webkit-keyframes login-right-side {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes login-right-side {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes login-right-side {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@media (max-width: 991px) {
+
+    .navbar-nav,
+    .nav-item {
+        margin-left: 0;
+    }
+}
